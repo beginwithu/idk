@@ -1,20 +1,20 @@
 #!/usr/bin/env bash
 
 PACKAGES={
-          plasma-meta 
-          gamemode 
-          lib32-gamemode 
-          xdg-utils 
-          smartmontools 
-          openssh 
-          wget 
-          networkmanager 
-          git 
-          base-devel 
-          fastfetch
-          flatpak 
-          htop
-          btop 
+         plasma-meta 
+         gamemode 
+         lib32-gamemode 
+         xdg-utils 
+         smartmontools 
+         openssh 
+         wget 
+         networkmanager 
+         git 
+         base-devel 
+         fastfetch
+         flatpak 
+         htop
+         btop 
          fish 
          starship 
          eza
