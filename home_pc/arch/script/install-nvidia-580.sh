@@ -1,6 +1,6 @@
-#!/usr/local/bin/sh
+#!/usr/bin/env bash
 
-sudo pacman -Sy 
+ PACKAGES=(
     linux-headers 
     libva-nvidia-driver 
     lib32-opencl-nvidia-580xx 
@@ -9,3 +9,6 @@ sudo pacman -Sy
     nvidia-580xx-dkms 
     nvidia-580xx-utils 
     nvidia-580xx-settings
+)
+
+sudo pacman -Syu "${PACKAGES[@]}"
