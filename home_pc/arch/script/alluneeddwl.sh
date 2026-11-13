@@ -6,7 +6,7 @@ PACKAGES=(
   xdg-desktop-portal-wlr
   fcft
   tllist
-  gamemode \ 
+  gamemode 
   lib32-gamemode
   git
   base-devel
