@@ -1,0 +1,8 @@
+`/etc/systemd/zram-generator.conf`
+
+```
+[zram0]
+zram-size = ram / 2
+compression-algorithm = zstd
+swap-priority = 100
+```
