@@ -10,11 +10,16 @@ sudo usermod -aG libvirt $(whoami)
 newgrp libvirt
 
 #4
+sudo virsh net-list --all
+sudo virsh net-start default
+sudo virsh net-autostart default
+
+#5
 sudo ufw allow in on virbr0
 sudo ufw allow out on virbr0
 sudo ufw route allow in on virbr0
 sudo ufw route allow out on virbr0
 
-#5
+#6
 systemctl restart systemd-networkd systemd-resolved
 ```
