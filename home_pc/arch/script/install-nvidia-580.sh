@@ -2,8 +2,9 @@
 
  PACKAGES=(
     linux-zen-headers
-    ananicy-cpp 
-    cachyos-ananicy-rules-git
+    ananicy-cpp
+    cachyos-settings
+    cachyos-ananicy-rules
     gamemode 
     lib32-gamemode
     libva-nvidia-driver 
