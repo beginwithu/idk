@@ -21,5 +21,5 @@ sudo ufw route allow in on virbr0
 sudo ufw route allow out on virbr0
 
 #6
-systemctl restart systemd-networkd systemd-resolved
+sudo systemctl restart systemd-networkd systemd-resolved
 ```
