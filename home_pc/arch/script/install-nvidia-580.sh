@@ -2,6 +2,8 @@
 
  PACKAGES=(
     linux-zen-headers
+    ananicy-cpp 
+    cachyos-ananicy-rules-git
     libva-nvidia-driver 
     lib32-opencl-nvidia-580xx 
     lib32-nvidia-580xx-utils 
