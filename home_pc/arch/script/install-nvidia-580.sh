@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
  PACKAGES=(
-    linux-headers 
+    linux-zen-headers
     libva-nvidia-driver 
     lib32-opencl-nvidia-580xx 
     lib32-nvidia-580xx-utils 
