@@ -5,6 +5,7 @@
     ananicy-cpp
     cachyos-settings
     cachyos-ananicy-rules
+    vulkan-tools
     gamemode 
     lib32-gamemode
     libva-nvidia-driver 
