@@ -36,3 +36,4 @@ PACKAGES=(
 
 sudo pacman -Syu "${PACKAGES[@]}"
 sudo systemctl enable plasmalogin
+sudo reboot
