@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+set -e
 
 PACKAGES=(
   plasma-meta
@@ -29,8 +30,9 @@ PACKAGES=(
   ttf-jetbrains-mono-nerd
   baobab
   nano
-  nvim
+  neovim
   micro
 )
 
 sudo pacman -Syu "${PACKAGES[@]}"
+sudo systemctl enable plasmalogin
